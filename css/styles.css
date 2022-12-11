@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
 h1 {
   font-family: "Lato", sans-serif;
   font-size: 55px;
@@ -8,6 +9,7 @@ h1 {
   line-height: 70px;
   text-shadow: 2px 2px 3px #1a1a1a;
 }
+
 h2 {
   font-family: "Russo One", sans-serif;
   font-size: 48px;
@@ -19,6 +21,7 @@ h5 {
   padding-top: 40px;
   margin-bottom: 0px;
 }
+
 p {
   font-family: "Raleway", sans-serif;
   font-size: 17px;
@@ -26,39 +29,50 @@ p {
   color: #7a7a7a;
   line-height: 1.5;
 }
+
 .text-link {
   color: #7a7a7a;
   font-style: italic;
 }
+
 .text-link:hover {
   color: #7a7a7a;
   text-decoration: underline;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 a ion-icon {
   font-size: 22px;
   color: #ffffff;
 }
+
 section {
   padding: 120px 0;
 }
+
 .bg-light-grey {
   background-color: #f5f5f5;
 }
+
 .bg-dark {
   background-color: #1a1a1a !important;
 }
+
 .topmargin-xs {
   margin-top: 15px !important;
 }
+
 .topmargin-sm {
   margin-top: 30px !important;
 }
+
 .topmargin-lg {
   margin-top: 60px !important;
 }
+
 .btn {
   font-size: 14px;
   padding: 8px 10px;
@@ -66,16 +80,19 @@ section {
   /* border-radius: 75px; */
   display: inline-block;
 }
+
 .btn-light {
   background-color: rgba(255, 255, 255, 0.9);
   color: #1a1a1a;
   border: 2px solid #ffffff;
 }
+
 .btn-resume {
   background-color: #f5f5f5;
   color: #1a1a1a;
   border: 2px solid #1a1a1a;
 }
+
 .btn-dark {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -83,6 +100,7 @@ section {
   color: #1a1a1a; */
   border: 1px solid #1a1a1a;
 }
+
 /* .btn ion-icon {
   font-size: 14px;
   margin-left: 5px;
@@ -90,12 +108,15 @@ section {
 .full-width {
   width: 100%;
 }
+
 .half-width {
   width: 30%;
 }
+
 .text-dark {
   color: #1a1a1a;
 }
+
 .form-control {
   font-size: 14px;
   border: 1px solid #cacaca;
@@ -109,31 +130,37 @@ section {
   outline: none;
   box-shadow: none;
 }
+
 .navbar {
   background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   min-height: 90px;
 }
+
 .nav-link-logo {
   font-family: "Bangers", cursive;
   /* font-family: "Russo One", cursive; */
   color: #1a1a1a;
   padding: 0;
 }
+
 .nav-link-logo:hover {
   color: #1a1a1a;
 }
+
 .nav-link {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #1a1a1a;
 }
+
 .nav-link:hover {
   color: #1a1a1a;
   font-weight: 900;
   text-decoration: bold;
 }
+
 .nav-link-lang {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
@@ -142,6 +169,7 @@ section {
   color: #1a1a1a;
   margin-left: 14px;
 }
+
 .nav-link-lang:hover {
   font-weight: 900;
   color: #1a1a1a;
@@ -149,20 +177,23 @@ section {
 }
 
 .logo-brand {
-  min-width: 40px;
-  max-width: 40px;
+  min-width: 120px;
+  max-width: 180px;
 }
+
 .logo-brand-footer {
-  background-color: #ffffff;
-  border-radius: 100%;
+  /* background-color: #1a1a1a; */
+  /* border-radius: 100%; */
+  fill: #ffffff;
   border-style: hidden;
-  min-width: 40px;
-  max-width: 40px;
+  min-width: 120px;
+  max-width: 180px;
 }
 
 .navbar-toggler {
   font-size: 30px;
 }
+
 .navbar-toggler:focus {
   outline: none;
 }
@@ -180,6 +211,7 @@ section {
   opacity: 0.95;
   color: rgba(255, 255, 255, 0.95);
 }
+
 #home h5 {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -189,6 +221,7 @@ section {
 
   /* padding-bottom: 15px; */
 }
+
 #home h3 {
   font-family: "Lato", sans-serif;
   font-size: 26px;
@@ -198,6 +231,7 @@ section {
   /* padding-top: 80px; */
   /* padding-bottom: 15px; */
 }
+
 #home p {
   color: rgba(255, 255, 255, 0.95);
 }
@@ -238,6 +272,7 @@ section {
   line-height: 1.5;
   margin-bottom: 12px;
 }
+
 .expertise a {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
@@ -256,6 +291,7 @@ section {
   background-color: #ffffff;
   border: 2px solid #1a1a1a;
 }
+
 /* .expertise-details {
   position: absolute;
   bottom: 25px;
@@ -284,6 +320,7 @@ section {
   color: #1a1a1a;
   line-height: 1.2;
 }
+
 #skills h4 {
   font-family: "Nunito", sans-serif;
   font-size: 24px;
@@ -305,6 +342,7 @@ section {
   text-align: left;
   margin-bottom: 6px;
 }
+
 .skills-link {
   display: flex;
   justify-content: center;
@@ -323,10 +361,12 @@ section {
   color: #424242;
   text-decoration: underline;
 }
+
 .skills-logo {
   padding: 10px 1px 10px 1px;
   max-width: 95px;
 }
+
 .skills-box-light {
   background-color: #ffffff;
   border-top: 1.5px solid #7a7a7a;
@@ -346,11 +386,13 @@ section {
   position: relative;
   margin: 5px 20px;
 }
+
 .member-details {
   position: relative;
   bottom: 0px;
   left: 20px;
 }
+
 .member-image {
   padding: 5px 1px 5px 1px;
   width: 85%;
@@ -363,12 +405,14 @@ section {
   font-size: 18px;
   font-weight: 800;
 }
+
 .member-details span {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #424242;
 }
+
 .member-details ion-icon {
   padding: 0 5px;
   color: #424242;
@@ -390,28 +434,34 @@ section {
   text-align: center;
   color: #ffffff;
 }
+
 #footer a {
   color: #ffffff;
 }
+
 #footer .list-inline .list-inline-item {
   padding: 1px 5px;
 }
+
 @media (max-width: 575.98px) {
   h1 {
     font-size: 36px;
     line-height: normal;
   }
+
   #home h5 {
     font-size: 16px;
     padding-top: 80px;
     padding-bottom: 15px;
   }
+
   #home h3 {
     font-size: 22px;
     font-weight: 400;
     /* padding-top: 80px; */
     /* padding-bottom: 15px; */
   }
+
   /* .expertise-details h2 {
     font-size: 32px;
   } */
@@ -419,27 +469,33 @@ section {
     min-width: unset;
     padding: 40px;
   }
+
   .skills {
     min-width: unset;
     padding: 40px;
   }
+
   .footer-menu {
     display: block !important;
     padding: 5px 0 !important;
     font-size: 18px;
   }
 }
+
 @media (min-width: 576px) {
   .expertise {
     min-width: unset;
     padding: 40px;
   }
+
   .skills {
     min-width: unset;
     padding: 40px;
   }
 }
+
 @media (min-width: 768px) {
+
   /* .expertise-details h2 {
     font-size: 30px;
   } */
@@ -447,6 +503,7 @@ section {
     min-width: unset;
     padding: 20px 20px;
   }
+
   .skills {
     min-width: unset;
     padding: 20px 20px;
